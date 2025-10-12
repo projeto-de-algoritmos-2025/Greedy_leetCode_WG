@@ -1,7 +1,7 @@
 
-# Exercícios sobre Grafos 1
+# Exercícios sobre Algoritmos Ambiciosos
 
-**Conteúdo da Disciplina**: Grafos 1<br>
+**Conteúdo da Disciplina**: Algoritmos Ambiciosos<br>
 
 ## Alunos
 
@@ -12,12 +12,12 @@
 
 ## Sobre
 
-Esse exercício visa buscar a resolução dos exercícios escolhidos pela plataforma do LeetCode, com o objetivo de mostrar nossos conhecimentos aprendidos no conteúdo de grafos 1. Neles vamos aplicar conceitos e conhecimentos de lógica aprendidos na matéria de Projeto de Algoritmos com o professor Maurício Serrano.
+Esse exercício visa buscar a resolução dos exercícios escolhidos pela plataforma do LeetCode, com o objetivo de mostrar nossos conhecimentos aprendidos no conteúdo de algoritmos ambiciosos. Neles vamos aplicar conceitos e conhecimentos de lógica aprendidos na matéria de Projeto de Algoritmos com o professor Maurício Serrano.
 
 Principais funcionalidades:
-- Descobrir o maior caminho dentro de uma árvore.
-- Identificar a existências de ciclos e pais duplicados para um mesmo nó em um grafo direcionado.
-- Identificação de ciclos dentro de uma implementação de uma matriz de adjacência.
+- Encontrar tamanhos de partições por meio de divisões de strings.
+- Otimização de construção de arrays numéricos por meio de incrementos.
+-
 
 
 ## Screenshots
@@ -26,27 +26,37 @@ Principais funcionalidades:
 
 #### Questão 1   
 
-![Programação do curso](./imgs/questao_1.png)
+![Questão](./imgs/Q1.png)
 
 #### Questão 1 no LeetCode  
 
-![Programação do curso](./imgs/questao_1_resp.png)
+![Validação de Código](./imgs/respostaQ1.png)
+
+**Explicação da Resolução:** Este algoritmo didive a string várias vezes, até o menor número de partições possíveis, de forma que cada uma das letras apareça em no máximo uma partição.
 
 ---
 
 #### Questão 2   
 
-![Execução de Algoritmo](./imgs/questao_2.png)
+![Questão](./imgs/Q2.png)
 
-**Explicação da Resolução:** Foi utilizado dois vetores auxiliares para marcação de quem são filhos e quem são pais dentro das arestas passadas, com isso seria possível verificar se algum filho estava apontando para algum pai (Ciclo) ou se algum filho estava recebendo um segundo pai (Quebra da árvore).
+#### Questão 2 no LeetCode
+
+![Validação de Código](./imgs/respostaQ2.png)
+
+**Explicação da Resolução:** O algoritmo calcula o número mínimo de operações que são necessárias para construir um array numérico desejado (alvo), a partir de um array de zeros.
 
 ---
 
 #### Questão 3   
 
-![Resultado de Caminho Mínimo](./imgs/questao_3.png)
+<!-- ![Questão](./imgs/Q2.png) -->
 
-**Explicação da Resolução:** Para esta questão foi utilizado uma lógica de matriz de adjacencia que guardava todas as dependências fornecidas. Com isso foi desenvolvido um modelo de DFS para percorrer a matriz com ajuda de um vetor de visitados, para analisar se em algum momento as dependências de cursos criavam um ciclo.
+#### Questão 3 no LeetCode
+
+<!-- ![Validação de Código](./imgs/respostaQ2.png) -->
+
+**Explicação da Resolução:** 
 
 ---
 
@@ -60,7 +70,7 @@ gcc questao_x.c -o questao_x && ./questao_x
 
 ## Apresentação
 
-Vídeo disponível em: [youtube](https://youtu.be/K3ExD20ChGY)
+Vídeo disponível em: [youtube]()
 
 ## Outros
 
