@@ -50,11 +50,11 @@ Principais funcionalidades:
 
 #### Questão 3   
 
-<!-- ![Questão](./imgs/Q2.png) -->
+![Questão](./imgs/Q3.png) 
 
 #### Questão 3 no LeetCode
 
-<!-- ![Validação de Código](./imgs/respostaQ2.png) -->
+![Validação de Código](./imgs/respostaQ3.png)
 
 **Explicação da Resolução:** 
 
