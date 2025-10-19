@@ -17,7 +17,7 @@ Esse exercício visa buscar a resolução dos exercícios escolhidos pela plataf
 Principais funcionalidades:
 - Encontrar tamanhos de partições por meio de divisões de strings.
 - Otimização de construção de arrays numéricos por meio de incrementos.
--
+- Definir o maior ganho de um cahfe baseado na satisfação dos seus pratos.
 
 
 ## Screenshots
@@ -70,7 +70,7 @@ gcc questao_x.c -o questao_x && ./questao_x
 
 ## Apresentação
 
-Vídeo disponível em: [youtube]()
+Vídeo disponível em: [youtube](https://www.youtube.com/watch?v=-MRcn7QFMRU)
 
 ## Outros
 
