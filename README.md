@@ -56,7 +56,7 @@ Principais funcionalidades:
 
 ![Validação de Código](./imgs/respostaQ3.png)
 
-**Explicação da Resolução:** 
+**Explicação da Resolução:** O código busca encontrar a maior "satisfação" possível ao ser cozinhado um conjunto de pratos, ele otimiza a ordem e a seleção para maximizar o ganho priorizando os pratos com maior "satisfação".
 
 ---
 
